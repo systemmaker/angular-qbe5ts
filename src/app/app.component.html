@@ -2,5 +2,9 @@
 <p>
   Start editing to see some magic happen :)
 </p>
-<a (click)="dynamicDownloadTxt()" >download Txt</a>
-<a (click)="dynamicDownloadJson()" >download JSON</a>
+<nav>
+  <a routerLink="">hello</a>
+  <a routerLink="/file">Heroes</a>
+  <a routerLink="/home">home</a>
+</nav>
+<router-outlet></router-outlet>
